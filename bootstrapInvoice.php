@@ -17,6 +17,11 @@ $price=count($_POST['price']) ? $_POST['price'] :array();
 			width: 100%; 
 			type="text";
 		}
+		a:link:hover,a:link, a:visited, a:hover, a:active:hover, a:visited:hover {
+			text-decoration: none;
+			color: #2d2d2d;
+			border: 0px;
+		}
 		</style>
 		<title>Invoice</title>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -134,7 +139,7 @@ $price=count($_POST['price']) ? $_POST['price'] :array();
 				</tbody>
 		</table>
 		<?php
-			(float)$subtotal= 0.0;
+			$subtotal= 0.0;
 			$i=0;
 			foreach ($service as $n )
 			{
@@ -181,8 +186,11 @@ $price=count($_POST['price']) ? $_POST['price'] :array();
 		<h1>
 
 		</h1>
-		<input style="width:15%; position:right" type="button" value="Clear Form"  />
+		<a href="http://localhost/workGitFolder/bootstrapInvoice.php">
+		   <input style="width:15%" type="button" value="Reset Form" />
+		</a>
 		<input style="width:15%; position:right" type="submit" value="Enter" />
+		
 		</form>
 	</body>
 </html>
