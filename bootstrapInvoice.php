@@ -67,69 +67,69 @@ $price=count($_POST['price']) ? $_POST['price'] :array();
 				<thead>
 				<tbody>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[0]) { echo $service[0]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[0]) { echo $quantity[0]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[0]) { echo $price[0]; } ?>"></td>
 					</tr>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[1]) { echo $service[1]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[1]) { echo $quantity[1]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[1]) { echo $price[1]; } ?>"></td>
 					</tr>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[2]) { echo $service[2]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[2]) { echo $quantity[2]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[2]) { echo $price[2]; } ?>"></td>
 					</tr>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[3]) { echo $service[3]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[3]) { echo $quantity[3]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[3]) { echo $price[3]; } ?>"></td>
 					</tr>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[4]) { echo $service[4]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[4]) { echo $quantity[4]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[4]) { echo $price[4]; } ?>"></td>
 					</tr>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[5]) { echo $service[5]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[5]) { echo $quantity[5]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[5]) { echo $price[5]; } ?>"></td>
 					</tr>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[6]) { echo $service[6]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[6]) { echo $quantity[6]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[6]) { echo $price[6]; } ?>"></td>
 					</tr>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[7]) { echo $service[7]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[7]) { echo $quantity[7]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[7]) { echo $price[7]; } ?>"></td>
 					</tr>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[8]) { echo $service[8]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[8]) { echo $quantity[8]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[8]) { echo $price[8]; } ?>"></td>
 					</tr>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[9]) { echo $service[9]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[9]) { echo $quantity[9]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[9]) { echo $price[9]; } ?>"></td>
 					</tr>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[10]) { echo $service[10]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[10]) { echo $quantity[10]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[10]) { echo $price[10]; } ?>"></td>
 					</tr>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[11]) { echo $service[11]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[11]) { echo $quantity[11]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[11]) { echo $price[11]; } ?>"></td>
 					</tr>
 					<tr>
-						<td><input name="service[]"></td>
-						<td><input name="quantity[]"></td>
-						<td><input name="price[]"></td>
+						<td><input name="service[]" value="<?php if($service[12]) { echo $service[12]; } ?>"></td>
+						<td><input name="quantity[]" value="<?php if($quantity[12]) { echo $quantity[12]; } ?>"></td>
+						<td><input name="price[]" value="<?php if($price[12]) { echo $price[12]; } ?>"></td>
 					</tr>
 				</tbody>
 		</table>
@@ -140,13 +140,13 @@ $price=count($_POST['price']) ? $_POST['price'] :array();
 			{
 				$subtotal=$subtotal+$quantity[$i]*$price[$i];
 				$i++;
+				$other=10.00;
 			}
 			$tax= .08*$subtotal;
 			$i=0;
-			$other=10.00;
 			foreach ($service as $n )
 			{
-				if($service[i]=="no charge")
+				if($service[$i]=="no charge")
 				{
 					$other=0.00;
 				}
@@ -154,12 +154,12 @@ $price=count($_POST['price']) ? $_POST['price'] :array();
 			}
 			$total=$subtotal+$tax+$other;
 		?>
-		<table class="table table-bordered table-condensed" style="margin-top:0; padding-top:0">
+		<table class="table table-bordered table-condensed" style="margin-top:0; border-top:none; padding-top:0">
 			<tbody>
 				<tr>
 					<td rowspan="4" style="width: 70%; border-top:none; font-style: italic ; font-size 12px; text-align:center; vertical-align: middle ">Giving you the photography service you need, now!</td>	
-					<td style="width: 15%">Subtotal</td>
-					<td style="width: 15%"><?php echo "$"; echo number_format((float)$subtotal,2); ?></td>
+					<td style="border-top:none; width: 15%">Subtotal</td>
+					<td style="border-top:none; width: 15%"><?php echo "$"; echo number_format((float)$subtotal,2); ?></td>
 					
 				</tr>
 				<tr>
@@ -181,7 +181,7 @@ $price=count($_POST['price']) ? $_POST['price'] :array();
 		<h1>
 
 		</h1>
-		<input style="width:15%; position:right" type="reset" value="Clear Form" />
+		<input style="width:15%; position:right" type="button" value="Clear Form"  />
 		<input style="width:15%; position:right" type="submit" value="Enter" />
 		</form>
 	</body>
