@@ -28,7 +28,7 @@ $price=count($_POST['price']) ? $_POST['price'] :array();
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	</head>
-	<body style="margin: 50px; text-align:center">
+	<body style="margin: 25px; text-align:center">
 
 		<div>
 			<h1>INVOICE</h1>
