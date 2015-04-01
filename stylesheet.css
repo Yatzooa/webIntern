@@ -1,0 +1,55 @@
+#topBar {
+	height:40px;
+	width:100%;
+	border-radius: 0%;
+	position: fixed;
+	top:0;
+	opacity: .90;
+	background-color:black;
+}
+
+
+.boxLink{
+	position: relative;
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+	margin-left: 20px;
+	margin-top:0;
+}
+.postBorder{
+	display: inline-block;
+	background-color: rgba(0,0,0,0.70);
+	margin-top:10;
+	margin-bottom:10;
+	border: 2px solid white;
+	border-radius:2.5%;
+	text-align: center;
+}
+
+img {
+	margin-top: 50px;
+	width: 900px
+}
+a {
+color: #ffffff;
+text-decoration: none;
+font-size: 25px;
+font-family: Verdana;
+}
+
+body {
+	margin-top: 100px;
+	background-image: url("http://i.imgur.com/h5DxFYx.jpeg");
+	background-size:cover;
+	background-repeat: n;
+	font-family: Verdana;
+	background-attachment: fixed;
+	
+}
+
+html {
+	height: 100%;
+	color: #ffffff;
+}
+
