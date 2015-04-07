@@ -14,7 +14,11 @@
 		margin: 0;
 		padding: 0;
   	}
-  	div {
+  	#fixedBar {
+		position:fixed;
+		display:block;
+		width:100%;
+		z-index: 10;
   	}
 	#banner {
 		display:block;
@@ -30,6 +34,13 @@
 		height: 5%;
 		background-color: black;
 		text-align: center;
+		display:block;
+		
+	}
+	
+	#postBody {
+		top:75px;
+		position:relative;
 	}
 	
 	body {
@@ -59,6 +70,10 @@
 	  color: black;
 	  background-color: white
   	}
+	.nav-pills>li.active>a:hover {
+	  color: black;
+	  background-color: white;
+  	}
 	
 	.nav>li>a {
 		color:white;
@@ -81,7 +96,7 @@
 	    <div class="container">
 				<ul class="nav nav-pills red" role="tablist">
 				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Math</a></li>
+				<li><a href="photos.php">Photography</a></li>
 				<li><a href="bootstrapInvoice.php">Invoice Form</a></li>
 				<li class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
@@ -96,29 +111,29 @@
 	<div class="container">
 		
 	<div class="row">
-		<div class="col-xs-12" id="postBorder">
-			<img src="http://i.imgur.com/GeqOOp6.jpeg">
-			<p>The View From Mt. Quimby</p>
-		</div>
-		
-		<div class="col-xs-6" id="postBorder">
-			<img src="IMG_3362.JPG">
-			<p>The light is bright</p>
-		</div>
-		<div class="col-xs-6" id="postBorder">
+		<div class="col-sm-6" id="postBorder">
 			<blockquote>
 				<p>“Next,” said I, “compare our nature in respect of education and its lack to such an
-experience as this. Picture men dwelling in a sort of subterranean cavern with a
-long entrance open to the light on its entire width. Conceive them as having their
-legs and necks fettered from childhood, so that they remain in the same spot, able to
-look forward only, and prevented by the fetters from turning their heads. Picture
-further the light from a fire burning higher up and at a distance behind them, and
-between the fire and the prisoners and above them a road along which a low wall
-has been built, as the exhibitors of puppet-shows have partitions before the men
-themselves, above which they show the puppets.”
+			experience as this. Picture men dwelling in a sort of subterranean cavern with a
+			long entrance open to the light on its entire width. Conceive them as having their
+			legs and necks fettered from childhood, so that they remain in the same spot, able to
+			look forward only, and prevented by the fetters from turning their heads. Picture
+			further the light from a fire burning higher up and at a distance behind them, and
+			between the fire and the prisoners and above them a road along which a low wall
+			has been built, as the exhibitors of puppet-shows have partitions before the men
+			themselves, above which they show the puppets.”
+				</p>
+					<footer>
+						From Plato's Allegory of the cave
+					</footer>
+			</blockquote>
+		</div>
+		<div class="col-sm-6" id="postBorder">
+			<blockquote>
+				<p>It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way - in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only.
 				</p>
 				<footer>
-					From Plato's Allegory of the cave
+					From Charles Dicken's Tale of Two Cities
 				</footer>
 			</blockquote>
 		</div>
