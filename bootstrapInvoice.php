@@ -27,6 +27,7 @@ $price=count($_POST['price']) ? $_POST['price'] :array();
 		<link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap.min.css">
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="style.js"></script>
 	</head>
 	<body style="margin: 25px; text-align:center">
 
@@ -187,10 +188,10 @@ $price=count($_POST['price']) ? $_POST['price'] :array();
 
 		</h1>
 		<a href="http://localhost/workGitFolder/bootstrapInvoice.php">
-		   <input style="width:15%" type="button" value="Reset Form" />
+		   <!-- <input style="width:15%" type="button" value="Reset Form" /> -->
 		</a>
-		<input style="width:15%; position:right" type="submit" value="Enter" />
-		
+		<!-- <input style="width:15%; position:right" type="submit" value="Enter" />
+		 -->
 		</form>
 	</body>
 </html>
