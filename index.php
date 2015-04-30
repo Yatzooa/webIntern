@@ -14,6 +14,14 @@
 		margin: 0;
 		padding: 0;
   	}
+	
+	#dummySpace {
+		height:25%;
+		width:100%;
+		position:relative;
+		display:block;
+		
+	}
   	#fixedBar {
 		position:fixed;
 		display:block;
@@ -39,7 +47,6 @@
 	}
 	
 	#postBody {
-		top:75px;
 		position:relative;
 	}
 	
@@ -89,6 +96,8 @@
 
 </head>
 <body class="img-responsive">
+	
+	<div id="fixedBar">
 	<div id="banner">
 		<p>banner</p>
 	</div>
@@ -108,6 +117,11 @@
 				</ul>
 	    </div>
 	</div>
+	
+	</div>
+	
+	<div id="dummySpace"></div>
+	
 	<div class="container">
 		
 	<div class="row">
