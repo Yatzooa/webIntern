@@ -21,7 +21,15 @@ $(document).ready(function(){
 		if (!isNaN(total))
 		{
 			console.log('total ' + total);
+			
+			$('#subtotal').html('$' + total.toFixed(2));
+			taxAmt = total*.08 ;
+			$('#taxes').html('$' + taxAmt.toFixed(2));
+			etotal = total + taxAmt;
+			$('#total').html('$' + etotal.toFixed(2));
 		}
+
+		
 
 	});
 	
@@ -34,8 +42,11 @@ $(document).ready(function(){
 		if (!isNaN( tmp ) )
 		{
 			$(this).css("background-color", "#FFFFFF");
-		};	
+		};
+			
+
 	})
+
 	
 
 });
