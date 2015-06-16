@@ -139,6 +139,7 @@ $price=count($_POST['price']) ? $_POST['price'] :array();
 					</tr>
 				</tbody>
 		</table>
+		<!--
 		<?php
 			$subtotal= 0.0;
 			$i=0;
@@ -160,26 +161,27 @@ $price=count($_POST['price']) ? $_POST['price'] :array();
 			}
 			$total=$subtotal+$tax+$other;
 		?>
+		-->
 		<table class="table table-bordered table-condensed" style="margin-top:0; border-top:none; padding-top:0">
 			<tbody>
 				<tr>
 					<td rowspan="4" style="width: 70%; border-top:none; font-style: italic ; font-size 12px; text-align:center; vertical-align: middle ">Giving you the photography service you need, now!</td>	
 					<td style="border-top:none; width: 15%">Subtotal</td>
-					<td style="border-top:none; width: 15%"><?php echo "$"; echo number_format((float)$subtotal,2); ?></td>
+					<td style="border-top:none; width: 15%" id="subtotal"></td>
 					
 				</tr>
 				<tr>
 					<td style="width: 15%">Taxes</td>
-					<td style="width: 15%"><?php echo "$"; echo number_format((float)$tax,2); ?></td>
+					<td style="width: 15%" id="taxes"></td>
 				</tr>
 				<tr>
 
 					<td style="width: 15%">Other</td>
-					<td style="width: 15%"><?php echo "$"; echo number_format((float)$other,2); ?></td>
+					<td style="width: 15%"></td>
 				</tr>
 				<tr>
 					<td style="width: 15%">Total</td>
-					<td style="width: 15%"><?php echo "$"; echo number_format((float)$total,2); ?></td>
+					<td style="width: 15%" id="total"></td>
 				</tr>
 
 			</tbody>
